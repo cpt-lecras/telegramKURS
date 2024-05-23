@@ -9,7 +9,7 @@ from aiogram.fsm.state import State, StatesGroup
 import kb
 
 router = Router()
-base_url="http://127.0.0.1:8000"
+base_url="http://127.0.0.1:8003"
 
 @router.message(Command("start"))
 async def start_handler(msg: Message):
